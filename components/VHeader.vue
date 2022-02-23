@@ -2,7 +2,7 @@
   <div>
     <div>
       <nav class="bg-gray-800">
-        <div class="max-w-7xl mx-auto px-4">
+        <div class="container mx-auto px-4">
           <div class="flex items-center justify-between h-16">
             <div class="flex items-center">
               <div class="flex-shrink-0">
@@ -16,23 +16,25 @@
                 <div class="ml-10 flex items-baseline">
                   <NuxtLink
                     to="/"
-                    class="px-3 py-2 rounded-md text-sm font-medium text-white focus:outline-none focus:text-white focus:bg-gray-700"
+                    class="ml-4 px-3 py-2 rounded-md text-base font-medium text-gray-300 transition duration-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
                   >
                     Обо мне
                   </NuxtLink>
                   <NuxtLink
                     to="/portfolio"
-                    class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+                    class="ml-4 px-3 py-2 rounded-md text-base font-medium text-gray-300 transition duration-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
                   >
                     Портфолио
                   </NuxtLink>
+                  <NuxtLink
+                    to="/blog"
+                    class="ml-4 px-3 py-2 rounded-md text-base font-medium text-gray-300 transition duration-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+                  >
+                    Блог
+                  </NuxtLink>
                   <a
                     href="#"
-                    class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                  >Блог</a>
-                  <a
-                    href="#"
-                    class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+                    class="ml-4 px-3 py-2 rounded-md text-base font-medium text-gray-300 transition duration-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
                   >Контакты</a>
                 </div>
               </div>

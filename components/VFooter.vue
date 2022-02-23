@@ -1,6 +1,6 @@
 <template>
   <footer class="text-center lg:text-left bg-white text-gray-600 mt-40">
-    <div class="mx-6 py-10 text-center md:text-left">
+    <div class="mx-6 py-10 container mx-auto text-center md:text-left">
       <div class="flex flex-col md:flex-row items-center justify-between space-y-14">
         <div class="">
           <h6

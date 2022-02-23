@@ -1,14 +1,12 @@
 <template>
   <div>
-    <VPlug />
+    kassi
   </div>
 </template>
 
 <script>
-import VPlug from '@/components/VPlug'
 export default {
-  name: 'portfolio',
-  components: { VPlug }
+  name: 'VAdvertising'
 }
 </script>
 
