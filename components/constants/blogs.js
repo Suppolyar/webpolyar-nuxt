@@ -1,7 +1,7 @@
 export default [
   {
     id: 0,
-    name: 'Как мы отказались от JPEG, JSON, TCP и ускорили ВКонтакте в два раза',
+    name: 'Как ВКонтакте отказались от JPEG, JSON, TCP и ускорили ВКонтакте в два раза',
     description: 'Эта статья в меньшей степени о том, почему нужно бороться за производительность, и в большей о том, на что сейчас стоит заменить устаревший стек из JPEG, JSON, gzip и TCP — и как это сделать. ',
     link: 'https://habr.com/ru/company/vk/blog/594633/',
     picture: 'https://habrastorage.org/r/w1560/getpro/habr/upload_files/9ba/7bf/fdd/9ba7bffdd9d6914d5cbbfe6b42e051f2.png'
@@ -29,7 +29,7 @@ export default [
   },
   {
     id: 4,
-    name: 'Как я Quake в браузере делал',
+    name: 'Как сделать Quake в браузере',
     description: 'Подробности разработки и реализации движка: как сделана графика, как работает звук, и так далее.',
     link: 'https://habr.com/ru/post/177159/',
     picture: 'https://habrastorage.org/r/w1560/storage2/0ba/167/14c/0ba16714ce093adff4f79fbf2d1751fc.jpg'

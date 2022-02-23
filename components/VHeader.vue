@@ -5,13 +5,15 @@
         <div class="container mx-auto px-4">
           <div class="flex items-center justify-between h-16">
             <div class="flex items-center">
-              <div class="flex-shrink-0">
-                <img
-                  class="w-40"
-                  src="@/static/main-logo-white.svg"
-                  alt="Workflow logo"
-                >
-              </div>
+              <NuxtLink to="/">
+                <div class="flex-shrink-0">
+                  <img
+                    class="w-40"
+                    src="@/static/main-logo-white.svg"
+                    alt="Workflow logo"
+                  >
+                </div>
+              </NuxtLink>
               <div class="hidden md:block">
                 <div class="ml-10 flex items-baseline">
                   <NuxtLink
@@ -89,10 +91,12 @@
             >
               Портфолио
             </NuxtLink>
-            <a
-              href="#"
+            <NuxtLink
+              to="/blog"
               class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-            >Блог</a>
+            >
+              Блог
+            </NuxtLink>
             <a
               href="#"
               class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
