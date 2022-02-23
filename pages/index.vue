@@ -1,16 +1,14 @@
 <template>
   <div>
-    <VHeader />
-    <VHeroSection class="container mx-auto" />
+    <VHeroSection />
   </div>
 </template>
 
 <script>
-import VHeader from '../components/VHeader'
 import VHeroSection from '~/components/VHeroSection'
 export default {
   name: 'IndexPage',
-  components: { VHeader, VHeroSection }
+  components: { VHeroSection }
 
 }
 </script>
