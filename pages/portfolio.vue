@@ -7,7 +7,7 @@
 <script>
 import VPlug from '@/components/VPlug'
 export default {
-  name: 'portfolio',
+  name: 'Portfolio',
   components: { VPlug }
 }
 </script>
