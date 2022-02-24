@@ -85,7 +85,9 @@
             </NuxtLink>
           </p>
           <p>
-            <a href="#!" class="text-gray-600 transition duration-300 hover:text-blue-600">Связаться со мной</a>
+            <NuxtLink to="/contacts" class="text-gray-600 transition duration-300 hover:text-blue-600">
+              Связаться со мной
+            </NuxtLink>
           </p>
         </div>
         <div class="">
@@ -165,7 +167,7 @@ export default {
 </script>
 
 <style>
-.social-icons svg:hover path{
+.social-icons svg:hover path {
   transition: all 0.3s linear;
   fill: #3B82F6;
 }

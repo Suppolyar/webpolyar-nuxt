@@ -1,7 +1,7 @@
 <template>
   <section class="py-8">
     <div class="text-5xl font-bold text-center mb-8">
-      Интересные статьи и ссылки
+      Интересные статьи и сайты
     </div>
     <VBlogsItem class="mb-20" />
     <div class="text-5xl font-bold text-center mb-8">

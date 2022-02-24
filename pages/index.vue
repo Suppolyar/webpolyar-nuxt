@@ -14,7 +14,5 @@ export default {
 </script>
 
 <style>
-* {
-  @apply text-gray-800;
-}
+
 </style>

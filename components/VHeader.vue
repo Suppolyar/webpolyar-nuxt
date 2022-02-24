@@ -34,10 +34,12 @@
                   >
                     Блог
                   </NuxtLink>
-                  <a
-                    href="#"
+                  <NuxtLink
+                    to="/contacts"
                     class="ml-4 px-3 py-2 rounded-md text-base font-medium text-gray-300 transition duration-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                  >Контакты</a>
+                  >
+                    Контакты
+                  </NuxtLink>
                 </div>
               </div>
             </div>
@@ -97,10 +99,12 @@
             >
               Блог
             </NuxtLink>
-            <a
-              href="#"
+            <NuxtLink
+              to="/contacts"
               class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-            >Контакты</a>
+            >
+              Контакты
+            </NuxtLink>
           </div>
         </div>
       </nav>
