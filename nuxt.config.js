@@ -39,7 +39,20 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    ['nuxt-mail', {
+      message: {
+        to: 'vkhardy@inbox.ru'
+      },
+      smtp: {
+        host: 'smtp.gmail.com',
+        port: 465,
+        auth: {
+          user: 'polyar95@gmail.com',
+          pass: 'Suka2281488'
+        }
+      }
+    }]
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
