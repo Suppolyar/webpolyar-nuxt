@@ -16,7 +16,7 @@
               <input v-model="phone" type="tel" name="tel" class="leading-none text-gray-900 p-3 focus:outline-none focus:border-blue-500 mt-4 bg-gray-100 border rounded border-gray-200">
             </div>
           </div>
-          <div class="md:flex items-center mt-12">
+          <div class="md:flex items-center mt-8">
             <div class="w-full md:w-1/2 flex flex-col">
               <label class="font-semibold leading-none">Email *</label>
               <input v-model="email" type="email" name="email" class="leading-none text-gray-900 p-3 focus:outline-none focus:border-blue-500 mt-4 bg-gray-100 border rounded border-gray-200">
@@ -36,7 +36,7 @@
             <label
               class="flex items-center"
             >
-              <input @click="acceptRules" type="checkbox" class="form-checkbox">
+              <input type="checkbox" class="form-checkbox" @click="acceptRules">
               <span class="ml-2">Я согласен с <a href="/"><span class="underline hover:text-blue-500 transition duration-300">политикой конфиденциальности</span></a></span>
             </label>
           </div>

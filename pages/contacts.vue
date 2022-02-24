@@ -7,7 +7,7 @@
 <script>
 import VForm from '@/components/VForm'
 export default {
-  name: 'contacts',
+  name: 'Contacts',
   components: { VForm }
 }
 </script>

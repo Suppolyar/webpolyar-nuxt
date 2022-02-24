@@ -12,16 +12,16 @@
           Большинство хороших программистов делают свою работу не потому, что ожидают оплаты или признания, а потому что
           получают удовольствие от программирования. <span class="text-blue-300">&copy; Linus Torvalds</span>
         </p>
-        <div class="flex flex-row justify-center md:justify-start space-x-4 text-base font-normal">
+        <div class="flex flex-row justify-center md:justify-start space-x-4 text-lg font-normal">
           <a
             href="#use"
             class="px-4 py-2 bg-white rounded text-blue-500 transition duration-300 hover:bg-blue-300 hover:text-white"
           >
             Посмотреть
           </a>
-          <button class="px-4 py-2 bg-blue-500 rounded text-white transition duration-300 hover:bg-blue-300">
+          <NuxtLink to="/contacts" class="px-4 py-2 bg-blue-500 rounded text-white transition duration-300 hover:bg-blue-300">
             Связаться
-          </button>
+          </NuxtLink>
         </div>
       </div>
     </div>
@@ -29,9 +29,9 @@
       <div class="text-5xl font-bold text-center mb-8">
         Я использую
       </div>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4">
+      <div class="grid sm:grid-cols-2 xl:grid-cols-4 gap-8 px-4">
         <div
-          class="flex flex-col justify-between items-center px-4 py-8 bg-white border rounded transition duration-300 hover:shadow-2xl space-y-4"
+          class="flex flex-col items-center px-4 py-8 bg-white border rounded transition duration-300 hover:shadow-2xl space-y-4"
         >
           <div class="text-2xl font-bold">
             HTML
@@ -40,12 +40,11 @@
             <img src="@/static/icons/html.svg" alt="html">
           </div>
           <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid cum eaque eos et excepturi illo itaque,
-            nam odio repellat sed totam voluptatum? Autem hic illum laudantium libero rem totam?
+            Это язык гипертекстовой разметки страницы. Он используется для того, чтобы дать браузеру понять, как нужно отображать загруженный сайт
           </div>
         </div>
         <div
-          class="flex flex-col justify-between items-center px-4 py-8 bg-white border rounded transition duration-300 hover:shadow-2xl space-y-4"
+          class="flex flex-col items-center px-4 py-8 bg-white border rounded transition duration-300 hover:shadow-2xl space-y-4"
         >
           <div class="text-2xl font-bold">
             CSS
@@ -56,12 +55,12 @@
             <img src="@/static/icons/bootstrap.svg" alt="bootstrap">
           </div>
           <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid cum eaque eos et excepturi illo itaque,
-            nam odio repellat sed totam voluptatum? Autem hic illum laudantium libero rem totam?
+            Формальный язык описания внешнего вида документа (веб-страницы), написанного с использованием языка разметки. В своей работе я использую css-фреймворки
+            <a class="text-blue-500" href="https://tailwindcss.com/" target="_blank">TailwindCSS</a> и <a class="text-purple-500" href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
           </div>
         </div>
         <div
-          class="flex flex-col justify-between items-center px-4 py-8 bg-white border rounded transition duration-300 hover:shadow-2xl space-y-4"
+          class="flex flex-col items-center px-4 py-8 bg-white border rounded transition duration-300 hover:shadow-2xl space-y-4"
         >
           <div class="text-2xl font-bold">
             JavaScript
@@ -70,12 +69,11 @@
             <img src="@/static/icons/js.svg" alt="js">
           </div>
           <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid cum eaque eos et excepturi illo itaque,
-            nam odio repellat sed totam voluptatum? Autem hic illum laudantium libero rem totam?
+            Полноценный динамический язык программирования, который применяется к HTML документу, и может обеспечить динамическую интерактивность на веб-сайтах
           </div>
         </div>
         <div
-          class="flex flex-col justify-between items-center px-4 py-8 bg-white border rounded transition duration-300 hover:shadow-2xl space-y-4"
+          class="flex flex-col items-center px-4 py-8 bg-white border rounded transition duration-300 hover:shadow-2xl space-y-4"
         >
           <div class="text-2xl font-bold">
             Vue
@@ -85,12 +83,12 @@
             <img src="@/static/icons/nuxt.svg" alt="nuxt">
           </div>
           <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid cum eaque eos et excepturi illo itaque,
-            nam odio repellat sed totam voluptatum? Autem hic illum laudantium libero rem totam?
+            <a class="text-green-500" href="https://ru.vuejs.org/" target="_blank">Vue</a> — это прогрессивный фреймворк для создания пользовательских интерфейсов. Vue создан пригодным для постепенного внедрения, что упрощает интеграцию с другими библиотеками и существующими проектами. А свой сайт портфолио я сделал с помощью
+            <a class="text-green-500" href="https://nuxtjs.org/" target="_blank">Nuxt.js</a>, который позволяет создавать готовые к работе веб-приложения и призван упростить разработку универсальных и одностраничных сервисов
           </div>
         </div>
         <div
-          class="flex flex-col justify-between items-center px-4 py-8 bg-white border rounded transition duration-300 hover:shadow-2xl space-y-4"
+          class="flex flex-col items-center px-4 py-8 bg-white border rounded transition duration-300 hover:shadow-2xl space-y-4"
         >
           <div class="text-2xl font-bold text-center">
             Сборщики проектов
@@ -100,12 +98,11 @@
             <img src="@/static/icons/gulp.svg" alt="gulp">
           </div>
           <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid cum eaque eos et excepturi illo itaque,
-            nam odio repellat sed totam voluptatum? Autem hic illum laudantium libero rem totam?
+            Сборка проекта позволяет ускорить и упростить разработку, но за это придётся заплатить некоторую цену. Если разрабатывается крупное веб-приложение с богатой функциональностью, то эта цена оказывается сравнительно небольшой. Если же она вас по каким-то причинам не устраивает, например, когда требуется написать что-то простое, то, возможно, будет лучше обойтись и без сборки
           </div>
         </div>
         <div
-          class="flex flex-col justify-between items-center px-4 py-8 bg-white border rounded transition duration-300 hover:shadow-2xl space-y-4"
+          class="flex flex-col items-center px-4 py-8 bg-white border rounded transition duration-300 hover:shadow-2xl space-y-4"
         >
           <div class="text-2xl font-bold text-center">
             Git
@@ -116,12 +113,11 @@
             <img src="@/static/icons/bitbucket.svg" alt="bb">
           </div>
           <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid cum eaque eos et excepturi illo itaque,
-            nam odio repellat sed totam voluptatum? Autem hic illum laudantium libero rem totam?
+            Система управления версиями. У Git две основных задачи: первая —  хранить информацию о всех изменениях в вашем коде, начиная с самой первой строчки, а вторая — обеспечение удобства командной работы над кодом
           </div>
         </div>
         <div
-          class="flex flex-col justify-between items-center px-4 py-8 bg-white border rounded transition duration-300 hover:shadow-2xl space-y-4"
+          class="flex flex-col items-center px-4 py-8 bg-white border rounded transition duration-300 hover:shadow-2xl space-y-4"
         >
           <div class="text-2xl font-bold text-center">
             Дизайн
@@ -131,12 +127,11 @@
             <img src="@/static/icons/framer.svg" alt="framer">
           </div>
           <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid cum eaque eos et excepturi illo itaque,
-            nam odio repellat sed totam voluptatum? Autem hic illum laudantium libero rem totam?
+            Графические онлайн-редакторы для совместной работы. В них можно создать прототип сайта, интерфейс приложения и обсудить правки с коллегами в реальном времени
           </div>
         </div>
         <div
-          class="flex flex-col justify-between items-center px-4 py-8 bg-white border rounded transition duration-300 hover:shadow-2xl space-y-4"
+          class="flex flex-col items-center px-4 py-8 bg-white border rounded transition duration-300 hover:shadow-2xl space-y-4"
         >
           <div class="text-2xl font-bold text-center">
             Планировщик задач
@@ -146,8 +141,7 @@
             <img src="@/static/icons/jira.svg" alt="jira">
           </div>
           <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid cum eaque eos et excepturi illo itaque,
-            nam odio repellat sed totam voluptatum? Autem hic illum laudantium libero rem totam?
+            Планировщик задач помогает вам упорядочить ваши задачи и больше никогда не забывать о выполнении той или иной важной задачи
           </div>
         </div>
       </div>
@@ -167,7 +161,7 @@
                 class="absolute w-3 h-3 bg-gray-500 rounded-full transition duration-300 group-hover:bg-blue-500 -left-1.5 border border-white "
               />
               <time class="mb-1 text-sm font-normal leading-none text-gray-500 transition duration-300 group-hover:text-blue-500">Октябрь 2020</time>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 class="text-2xl font-semibold text-gray-900 dark:text-white">
                 Начал изучать профессию Frontend разработчика
               </h3>
             </li>
@@ -176,13 +170,13 @@
                 class="absolute w-3 h-3 bg-gray-500 rounded-full transition duration-300 group-hover:bg-blue-500 -left-1.5 border border-white "
               />
               <time class="mb-1 text-sm font-normal leading-none text-gray-500 transition duration-300 group-hover:text-blue-500">Апрель 2021</time>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 class="text-2xl font-semibold text-gray-900 dark:text-white">
                 Фриланс
               </h3>
-              <p class="text-base font-normal text-gray-500  ml-4">
-                &#9702; Участие в различных проетах как верстальщик/frontend разработчик. <br>
+              <p class="text-xl font-normal text-gray-500  ml-4">
+                &#9702; Участие в различных проетах как верстальщик/frontend разработчик <br>
                 &#9702; Внесение изменений в уже действующие
-                веб-сайты, верстка HTML писем для рассылок по email.
+                веб-сайты, верстка HTML писем для рассылок по email
               </p>
             </li>
             <li class="ml-4 group">
@@ -190,10 +184,10 @@
                 class="absolute w-3 h-3 bg-gray-500 rounded-full transition duration-300 group-hover:bg-blue-500 -left-1.5 border border-white "
               />
               <time class="mb-1 text-sm font-normal leading-none text-gray-500 transition duration-300 group-hover:text-blue-500">Сентябрь 2022</time>
-              <h3 class="text-lg font-semibold text-gray-900">
+              <h3 class="text-2xl font-semibold text-gray-900">
                 Работа в digital-агентстве
               </h3>
-              <p class="text-base font-normal text-gray-500  ml-4">
+              <p class="text-xl font-normal text-gray-500  ml-4">
                 &#9702; Разработка проектов (Frontend части) с нуля <br>
                 &#9702; Доработка существующих проектов <br>
                 &#9702; Разработка бизнес-логики для поддержки продукта <br>
@@ -205,12 +199,9 @@
         </div>
       </div>
       <div class="text-xl bg-white rounded-xl shadow-xl p-4">
-        С октября 2020 года я занимаюсь Веб-разработкой, до сентября 2021 года я активно принимал участие в проектах
-        на фрилансе, разрабатывал функционал на действующих Веб-сайтах с использованием jQuery и SPA, разработанных на
-        Vue.js. <br><br>
-        В сентябре этого года я начал работать в коммерческой разработке, как Junior Frontend Developer. Занимаюсь
-        улучшением и доработкой действующего, а также интеграцией нового функционала на веб-сайтах и разработкой новых
-        проектов на Vue.js.
+        В октябре 2020 года я самостоятельно начал изучать Веб-разработку, читая научную литературу, утопая в технических документациях и разных профильных онлайн-курсах. Около года, с начала своего пути в IT-индустрии, я активно принимал участие в проектах на фрилансе, разрабатывал функционал на действующих Веб-сайтах с использованием jQuery и SPA, разработанных на Vue.js.
+        <br><br>
+        В сентябре 2021 года я присоединился к команде digital-агентства, как Junior Frontend Developer, и начал развивать свои навыки в коммерческой разработке: занимался улучшением и доработкой действующего, а также интеграцией нового функционала на веб-сайтах и разработкой новых проектов на Vue.js.
       </div>
     </div>
   </section>
@@ -224,7 +215,7 @@ export default {
 
 <style>
 .bg-animate {
-  background: linear-gradient(-45deg, #4b5563, #1e3a8a, #1e40af, #334155);
+  background: linear-gradient(-45deg, #4b5563, #1e3a8a, rgba(110, 23, 116, 0.98), #334155);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
