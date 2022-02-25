@@ -141,7 +141,7 @@
             <img src="@/static/icons/jira.svg" alt="jira">
           </div>
           <div>
-            Планировщик задач помогает вам упорядочить ваши задачи и больше никогда не забывать о выполнении той или иной важной задачи
+            Планировщик задач помогает вам упорядочить ваши задачи и станет эффективным инструментом тайм-мененджмента
           </div>
         </div>
       </div>
@@ -183,7 +183,7 @@
               <div
                 class="absolute w-3 h-3 bg-gray-500 rounded-full transition duration-300 group-hover:bg-blue-500 -left-1.5 border border-white "
               />
-              <time class="mb-1 text-sm font-normal leading-none text-gray-500 transition duration-300 group-hover:text-blue-500">Сентябрь 2022</time>
+              <time class="mb-1 text-sm font-normal leading-none text-gray-500 transition duration-300 group-hover:text-blue-500">Сентябрь 2021</time>
               <h3 class="text-2xl font-semibold text-gray-900">
                 Работа в digital-агентстве
               </h3>

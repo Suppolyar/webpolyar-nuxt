@@ -37,7 +37,7 @@
               class="flex items-center"
             >
               <input type="checkbox" class="form-checkbox" @click="acceptRules">
-              <span class="ml-2">Я согласен с <a href="/"><span class="underline hover:text-blue-500 transition duration-300">политикой конфиденциальности</span></a></span>
+              <span class="ml-2">Я согласен с <NuxtLink to="/policy"><span class="underline hover:text-blue-500 transition duration-300">политикой конфиденциальности</span></NuxtLink></span>
             </label>
           </div>
           <div v-if="showErrorMessage" class="text-red-700 text-center mt-2">

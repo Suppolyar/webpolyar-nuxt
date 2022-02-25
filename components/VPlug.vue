@@ -14,7 +14,7 @@
       </div>
       <div class="text-left sm:text-center">
         <div class="text-2xl font-bold mb-8">
-          А может несколько интересных фактов про it? например:
+          А может несколько интересных фактов про IT? Например:
         </div>
         <div class="max-w-3xl mx-auto text-left">
           <p class="mb-4">
