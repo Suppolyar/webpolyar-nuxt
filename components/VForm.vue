@@ -89,20 +89,25 @@ export default {
       showForm: true
     }
   },
+  computed: {
+    validForm () {
+      return this.rules === true && this.name.length > 0 && this.email.length > 0
+    }
+  },
   methods: {
     acceptRules () {
       this.rules = !this.rules
     },
     sendForm () {
-      if (this.rules === true && this.name.length > 0 && this.email.length > 0) {
+      if (this.validForm) {
         this.$mail.send({
           from: this.email,
           subject: 'Отправлено с моего сайта',
-          text: `
-        Имя: ${this.name},
-        Телефон: ${this.phone},
-        Почта: ${this.email},
-        Компания: ${this.company},
+          html: `
+        Имя: ${this.name}, <br>
+        Телефон: ${this.phone}, <br>
+        Почта: ${this.email}, <br>
+        Компания: ${this.company}, <br>
         Сообщение: ${this.message}`
         })
         this.showForm = false
