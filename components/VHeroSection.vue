@@ -12,7 +12,7 @@
           Большинство хороших программистов делают свою работу не потому, что ожидают оплаты или признания, а потому что
           получают удовольствие от программирования. <span class="text-blue-300">&copy; Linus Torvalds</span>
         </p>
-        <div class="flex flex-row justify-center md:justify-start space-x-4 text-lg font-normal">
+        <div class="flex flex-row justify-center items-center md:justify-start space-x-4 text-lg font-normal">
           <a
             href="#use"
             class="px-4 py-2 bg-white rounded text-blue-500 transition duration-300 hover:bg-blue-300 hover:text-white"
@@ -22,6 +22,13 @@
           <NuxtLink to="/contacts" class="px-4 py-2 bg-blue-500 rounded text-white transition duration-300 hover:bg-blue-300">
             Связаться
           </NuxtLink>
+
+          <span class="text-white">или</span>
+          <a href="tg://resolve?domain=Suppolyar" target="_blank" class="telegram-link">
+            <svg width="36" height="31" viewBox="0 0 36 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M35.8974 2.82215L30.4648 29.1287C30.0549 30.9853 28.9861 31.4474 27.4672 30.5728L19.1897 24.3097L15.1956 28.254C14.7536 28.7079 14.3839 29.0874 13.532 29.0874L14.1267 20.4314L29.4683 6.19711C30.1353 5.58648 29.3236 5.24816 28.4316 5.85879L9.4656 18.1209L1.30059 15.4968C-0.475462 14.9275 -0.507608 13.6732 1.67027 12.7985L33.607 0.165084C35.0857 -0.404286 36.3796 0.503405 35.8974 2.82215V2.82215Z" fill="white"/>
+            </svg>
+          </a>
         </div>
       </div>
     </div>
@@ -63,10 +70,12 @@
           class="flex flex-col items-center px-4 py-8 bg-white border rounded transition duration-300 hover:shadow-2xl space-y-4"
         >
           <div class="text-2xl font-bold">
-            JavaScript
+            Javascript <br>
+            Typescript
           </div>
-          <div>
+          <div class="flex flex-row space-x-4">
             <img src="@/static/icons/js.svg" alt="js">
+            <img src="@/static/icons/typescript.svg" alt="ss">
           </div>
           <div>
             Полноценный динамический язык программирования, который применяется к HTML документу, и может обеспечить динамическую интерактивность на веб-сайтах
@@ -161,7 +170,7 @@
                 class="absolute w-3 h-3 bg-gray-500 rounded-full transition duration-300 group-hover:bg-blue-500 -left-1.5 border border-white "
               />
               <time class="mb-1 text-sm font-normal leading-none text-gray-500 transition duration-300 group-hover:text-blue-500">Октябрь 2020</time>
-              <h3 class="text-2xl font-semibold text-gray-900 dark:text-white">
+              <h3 class="font-semibold text-gray-900 dark:text-white">
                 Начал изучать профессию Frontend разработчика
               </h3>
             </li>
@@ -170,24 +179,24 @@
                 class="absolute w-3 h-3 bg-gray-500 rounded-full transition duration-300 group-hover:bg-blue-500 -left-1.5 border border-white "
               />
               <time class="mb-1 text-sm font-normal leading-none text-gray-500 transition duration-300 group-hover:text-blue-500">Апрель 2021</time>
-              <h3 class="text-2xl font-semibold text-gray-900 dark:text-white">
+              <h3 class="font-semibold text-gray-900 dark:text-white">
                 Фриланс
               </h3>
-              <p class="text-xl font-normal text-gray-500  ml-4">
+              <p class="font-normal text-gray-500  ml-4">
                 &#9702; Участие в различных проетах как верстальщик/frontend разработчик <br>
                 &#9702; Внесение изменений в уже действующие
                 веб-сайты, верстка HTML писем для рассылок по email
               </p>
             </li>
-            <li class="ml-4 group">
+            <li class="mb-10 ml-4 group">
               <div
                 class="absolute w-3 h-3 bg-gray-500 rounded-full transition duration-300 group-hover:bg-blue-500 -left-1.5 border border-white "
               />
               <time class="mb-1 text-sm font-normal leading-none text-gray-500 transition duration-300 group-hover:text-blue-500">Сентябрь 2021</time>
-              <h3 class="text-2xl font-semibold text-gray-900">
+              <h3 class="font-semibold text-gray-900">
                 Работа в digital-агентстве
               </h3>
-              <p class="text-xl font-normal text-gray-500  ml-4">
+              <p class="font-normal text-gray-500  ml-4">
                 &#9702; Разработка проектов (Frontend части) с нуля <br>
                 &#9702; Доработка существующих проектов <br>
                 &#9702; Разработка бизнес-логики для поддержки продукта <br>
@@ -195,13 +204,35 @@
                 &#9702; Кроссбраузерная и адаптивная верстка HTML5/CSS3 <br>
               </p>
             </li>
+            <li class="ml-4 group">
+              <div
+                class="absolute w-3 h-3 bg-gray-500 rounded-full transition duration-300 group-hover:bg-blue-500 -left-1.5 border border-white "
+              />
+              <time class="mb-1 text-sm font-normal leading-none text-gray-500 transition duration-300 group-hover:text-blue-500">Февраль 2022</time>
+              <h3 class="text-lg font-semibold text-gray-900">
+                Работа в продуктовой компании
+              </h3>
+              <p class="font-normal text-gray-500  ml-4">
+                &#9702; Разрабатывал и поддерживал Frontend часть нескольких web-приложений/сайтов <br>
+                &#9702; Участвовал с нуля в разработке сервиса по онлайн платежам (есть опыт в работе с приложениями, связанные с криптовалютой) <br>
+                &#9702; Проводил код-ревью <br>
+                &#9702; Настраивал конфигурацию приложений на этапе разработки (Webpack, Vite, ESLint, Prettier, небольшой опыт CI/CD) <br>
+                &#9702; Участвовал в обучении/наставлении по работе с Git у Junior-программистов <br>
+              </p>
+            </li>
           </ol>
         </div>
       </div>
-      <div class="text-xl bg-white rounded-xl shadow-xl p-4">
+      <div class="text-lg bg-white rounded-xl shadow-xl p-4">
         В октябре 2020 года я самостоятельно начал изучать Веб-разработку, читая научную литературу, утопая в технических документациях и разных профильных онлайн-курсах. Около года, с начала своего пути в IT-индустрии, я активно принимал участие в проектах на фрилансе, разрабатывал функционал на действующих Веб-сайтах с использованием jQuery и SPA, разработанных на Vue.js.
         <br><br>
         В сентябре 2021 года я присоединился к команде digital-агентства, как Junior Frontend Developer, и начал развивать свои навыки в коммерческой разработке: занимался улучшением и доработкой действующего, а также интеграцией нового функционала на веб-сайтах и разработкой новых проектов на Vue.js.
+        <br><br>
+        А с февраля 2022 года, я работаю в продуктовой компании, в команде по разработке системы онлайн-платежей, связанных с криптовалютами.
+        <br><br>
+        В команде, в которой я буду работать в будущем, я хочу видеть заинтересованных единомышленников, возможности для профессионального роста и приятную дружескую атмосферу :)
+        <br>
+        Самый удобный способ связи для меня Telegram: <a href="tg://resolve?domain=Suppolyar" target="_blank" class="text-blue-400">Suppolyar</a>
       </div>
     </div>
   </section>
@@ -230,5 +261,10 @@ export default {
   100% {
     background-position: 0% 50%;
   }
+}
+
+.telegram-link svg:hover path {
+  transition: all 0.3s linear;
+  fill: #3B82F6;
 }
 </style>

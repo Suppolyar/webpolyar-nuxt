@@ -126,3 +126,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.nuxt-link-exact-active {
+  @apply text-white bg-gray-700
+}
+</style>
