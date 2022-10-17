@@ -14,7 +14,7 @@
                   >
                 </div>
               </NuxtLink>
-              <div class="hidden md:block">
+              <div class="hidden md:block links">
                 <div class="ml-10 flex items-baseline">
                   <NuxtLink
                     to="/"
@@ -128,7 +128,7 @@ export default {
 </script>
 
 <style>
-.nuxt-link-exact-active {
+.links .nuxt-link-exact-active {
   @apply text-white bg-gray-700
 }
 </style>
